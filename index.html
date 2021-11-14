@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>Phone Number Checker</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <nav class="navbar">Phone Number Checker</nav>
+    <div class="container">
+      <div class="input">
+        <h3>Enter Phone Number</h3>
+        <div class="err"></div>
+        <input type="number" name="phone" id="input" onpaste="true"/>
+      </div>
+      <button type="submit">Search</button>
+      <div class="loader"></div>
+      <div class="result">
+        No Result Yet!
+      </div>
+    </div>
+    
+    <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
+    <script src="main.js"></script>
+  </body>
+</html>
